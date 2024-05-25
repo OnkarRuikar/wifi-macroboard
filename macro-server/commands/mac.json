@@ -1,0 +1,15 @@
+{
+    "volume_up": "pactl set-sink-volume 1 +5%",
+    "volume_down": "pactl set-sink-volume 1 -5%",
+    "volume_mute": "pactl set-sink-mute '@DEFAULT_SINK@' toggle",
+    "b1": "playerctl previous",
+    "b2": "playerctl play-pause",
+    "b3": "playerctl next",
+    "b4": "pacmd list-sources | grep -P \"card: \\d+ <[^>]*LifeCam_HD-5000[^>]*>\" | awk '{print $2}' | xargs -rn1 -I_ pactl set-source-mute _ toggle",
+    "b5": "",
+    "b6": "xset dpms force off",
+    "b7": "",
+    "b8": "",
+    "b9": "bash ./scripts/sample.sh"
+  }
+  

@@ -1,0 +1,21 @@
+{
+  "volume_up": "pactl set-sink-volume 1 +5%",
+  "volume_down": "pactl set-sink-volume 1 -5%",
+  "volume_mute": "pactl set-sink-mute '@DEFAULT_SINK@' toggle",
+  "b1": "",
+  "b2": "",
+  "b3": "",
+  "b4": "",
+  "b5": "cinnamon-session-quit --power-off",
+  "b6": "flameshot gui --delay 3000 &",
+  "b7": "wmctrl -r :ACTIVE: -e 0,0,640,480",
+  "b8": "bash ./scripts/sample.sh",
+  "b9": "xset dpms force off",
+  "b10": "pactl set-sink-mute '@DEFAULT_SINK@' toggle",
+  "b11": "pactl set-sink-volume 1 40%",
+  "b12": "pactl set-sink-volume 1 85%",
+  "b13": "pacmd list-sources | grep -P \"card: \\d+ <[^>]*LifeCam_HD-5000[^>]*>\" | awk '{print $2}' | xargs -rn1 -I_ pactl set-source-mute _ toggle",
+  "b14": "playerctl previous",
+  "b15": "playerctl play-pause",
+  "b16": "playerctl next"
+}

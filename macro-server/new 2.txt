@@ -1,0 +1,33 @@
+buy
+- usb 4P 4 way usb 
+- 24 awg cable
+
+ESP32 Chip model = ESP32-D0WD-V3 Rev 3
+This chip has 2 cores
+Chip ID: 13918856
+This chip has 240 cores
+
+- POWER SUPPLY
+  - attach usb output to charge mobile
+
+- get module info
+	- waveshare esp32-s3-zero
+	- BN: esp32-s3-box
+	- VID: 0x303A
+	- PID: 0x1001
+	- SN: null
+	
+	ESP32 Chip model = ESP32-S3 Rev 0
+    This chip has 2 cores
+    Chip ID: 5413788
+	MAC: 34:b7:da:52:9b:9c
+
+https://circuitjournal.com/esp8266-with-arduino-ide
+
+- programer for esp8266 with make jumpers
+- try esp8266 as usb dongle
+- assemble esp8266 sender module
+
+# power supply
+- 4way usb output with 5v LDO regulator
+- find old copper widing wires and find break currents

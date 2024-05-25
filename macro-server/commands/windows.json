@@ -1,0 +1,21 @@
+{
+  "volume_up": ".\\lib\\nircmd.exe changesysvolume 3553",
+  "volume_down": ".\\lib\\nircmd.exe changesysvolume -3553",
+  "volume_mute": ".\\lib\\nircmd.exe mutesysvolume 2",
+  "b1": "",
+  "b2": "",
+  "b3": "",
+  "b4": "",
+  "b5": "(new ActiveXObject(\"Shell.Application\")).ShutdownWindows();",
+  "b6": "",
+  "b7": "",
+  "b8": "\"scripts/sample.bat\"",
+  "b9": ".\\lib\\nircmd.exe monitor off",
+  "b10": ".\\lib\\nircmd.exe mutesysvolume 2",
+  "b11": ".\\lib\\nircmd.exe setvolume 0 26214 26214",
+  "b12": ".\\lib\\nircmd.exe setvolume 0 55705 55705",
+  "b13": ".\\lib\\nircmd.exe changesysvolume 2 Microphone",
+  "b14": ".\\lib\\nircmd.exe sendkey 0xB1 press",
+  "b15": ".\\lib\\nircmd.exe sendkey 0xB3 press",
+  "b16": ".\\lib\\nircmd.exe sendkey 0xB0 press"
+}

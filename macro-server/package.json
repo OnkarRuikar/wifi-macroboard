@@ -1,0 +1,19 @@
+{
+  "name": "macro-server",
+  "version": "1.0.0",
+  "description": "Macro server hosting macros to be called by macro keyboards",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "macro"
+  ],
+  "author": "Onkar Ruikar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.1",
+    "ip": "^2.0.1"
+  }
+}
