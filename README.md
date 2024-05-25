@@ -35,3 +35,10 @@ Follow instructions in these documents:
 4. Setting up macro server on Windows or Linux PCs
 5. Troubleshooting
 6. Improvements
+
+## See also
+
+Other similar projects:
+
+- [ESP-NOW based macropad](https://github.com/OnkarRuikar/esp-now-macropad)
+- [Bluetooth based macropad](https://github.com/OnkarRuikar/bt-macro-remote)
